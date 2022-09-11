@@ -1797,7 +1797,7 @@ class Exchange:
                                         until_ms: Optional[int] = None
                                         ) -> Tuple[str, str, str, List]:
         """
-        Download historic ohlcv
+        Download historic ohlcv      Open, High, Low, Close and Volume. 有量
         :param is_new_pair: used by binance subclass to allow "fast" new pair downloading
         :param candle_type: Any of the enum CandleType (must match trading mode!)
         """
